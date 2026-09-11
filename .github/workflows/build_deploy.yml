@@ -103,5 +103,5 @@ jobs:
           application-name: streamflix
           environment-name: streamflix-dev
           version-label: streamflix-${{ github.run_number }}
-          region: us-east-1
+          aws-region: us-east-1
           deployment-package-path: streamflixdeployment.zip
